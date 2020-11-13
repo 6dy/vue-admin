@@ -9,7 +9,19 @@
 </template>
 
 <script>
-export default {}
+import SideBar from "./components/sideBar"
+import MHeader from "./components/header"
+import PageMain from "./components/PageMain"
+import { mapGetters } from "vuex"
+
+export default {
+  name: "Layout",
+  components: {
+    SideBar,
+    MHeader,
+    PageMain
+  }
+}
 </script>
 
 <style lang="scss" scoped></style>

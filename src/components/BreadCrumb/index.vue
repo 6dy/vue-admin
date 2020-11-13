@@ -1,13 +1,13 @@
 <template>
   <div class="breadDiv" id="domBread">
-    <el-breadcrumb separator="/">
-      <el-breadcrumb-item
+    <a-breadcrumb separator="/">
+      <a-breadcrumb-item
         v-for="(item, index) in breadList"
-        :to="item.path"
+        :href="item.path"
         :key="index"
-        >{{ item.meta.title }}</el-breadcrumb-item
+        >{{ item.meta.title }}</a-breadcrumb-item
       >
-    </el-breadcrumb>
+    </a-breadcrumb>
   </div>
 </template>
 
