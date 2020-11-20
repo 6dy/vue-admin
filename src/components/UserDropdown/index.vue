@@ -5,7 +5,7 @@
         <span class="userDrop_text"
           >{{ userName }}<i class="el-icon-caret-bottom"></i
         ></span>
-        <img src="./user01.jpg" alt="user" />
+        <img src="" alt="user" />
       </div>
       <a-dropdown-menu solt="dropdown">
         <a-dropdown-item>

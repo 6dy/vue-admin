@@ -2,6 +2,8 @@ import Vue from "vue"
 import VueRouter from "vue-router"
 import store from "@/store"
 import Home from "@/views/Home/index.vue"
+import Layout from "@/layout"
+
 Vue.use(VueRouter)
 const routerList = []
 function importAll(routers) {
@@ -14,7 +16,7 @@ const routes = [
   {
     path: "/",
     name: "Home",
-    component: Home
+    component: Layout
   },
   ...routerList
 ]

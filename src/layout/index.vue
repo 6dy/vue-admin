@@ -11,7 +11,7 @@
 <script>
 import SideBar from "./components/sideBar"
 import MHeader from "./components/header"
-import PageMain from "./components/PageMain"
+import PageMain from "./components/pageMain"
 import { mapGetters } from "vuex"
 
 export default {

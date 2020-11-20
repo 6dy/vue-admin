@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="sideBar" id="domSideBar">
     <a-menu>
       <a-menu-item></a-menu-item>
     </a-menu>
